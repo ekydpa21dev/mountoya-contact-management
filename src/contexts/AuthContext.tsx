@@ -40,8 +40,6 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
 
       users.push(newUser);
       localStorage.setItem('users', JSON.stringify(users));
-      localStorage.setItem('user', JSON.stringify(newUser));
-      setUser(newUser);
 
       toast.success('Registrasi Berhasil', {
         description: 'Akun Anda telah dibuat'

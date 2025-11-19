@@ -69,7 +69,7 @@ export default function RegisterPage() {
 
     try {
       await register(email, password, name);
-      router.push('/dashboard');
+      router.push('/login');
     } catch {
       // Error handled by AuthContext
     }

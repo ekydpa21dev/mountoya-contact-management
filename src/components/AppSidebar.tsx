@@ -82,7 +82,7 @@ export function AppSidebar() {
 
         <SidebarMenu>
           <SidebarMenuItem>
-            <SidebarMenuButton onClick={logout} className="w-full">
+            <SidebarMenuButton onClick={logout} className="w-full cursor-pointer">
               <LogOut className="h-4 w-4" />
               <span>Logout</span>
             </SidebarMenuButton>
